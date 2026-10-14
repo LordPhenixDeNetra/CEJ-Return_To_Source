@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cahier d'exercices</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="entete">
+    <button class="btn-menu" id="btn-menu" aria-label="Ouvrir la liste des exercices" aria-expanded="false">☰</button>
+    <a class="marque" href="#/">Cahier d'exercices</a>
+    <nav class="langues" id="langues" aria-label="Langage"></nav>
+  </header>
+
+  <div class="disposition">
+    <aside class="barre" id="barre">
+      <input class="recherche" id="recherche" type="search" placeholder="Rechercher (titre, notion, n°)…" aria-label="Rechercher un exercice">
+      <label class="filtre"><input type="checkbox" id="masquer-faits"> Masquer les exercices faits</label>
+      <div class="progression-barre" id="progression-barre"></div>
+      <nav id="sommaire" aria-label="Exercices"></nav>
+    </aside>
+    <main class="contenu" id="contenu" tabindex="-1"></main>
+  </div>
+
+  <script src="exercices.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

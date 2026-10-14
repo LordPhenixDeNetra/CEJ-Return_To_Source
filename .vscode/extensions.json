@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "redhat.java",
+    "vscjava.vscode-java-debug",
+    "ms-python.python",
+    "ms-vscode.cpptools",
+    "golang.go",
+    "rust-lang.rust-analyzer"
+  ]
+}

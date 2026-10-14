@@ -1,0 +1,5 @@
+out/
+target/
+__pycache__/
+*.exe
+Cahier_d_Exercices_Java.pdf

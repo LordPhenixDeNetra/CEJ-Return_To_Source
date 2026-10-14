@@ -1,0 +1,3 @@
+# Les dossiers target pèsent des centaines de Mo : on les garde hors de OneDrive.
+[build]
+target-dir = "C:/Users/DELL/AppData/Local/cahier/rust-target"
