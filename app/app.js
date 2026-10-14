@@ -129,7 +129,7 @@
         </section>
         <h2>Parties</h2>
         <ul class="liste-parties">${parties}</ul>
-        <p class="intro" style="margin-top:20px">La numérotation reprend celle du cahier d'origine ; les exercices sont regroupés par thème.</p>
+        <p class="intro" style="margin-top:20px">Exercices adaptés du cahier de travaux pratiques « Programmation Orientée Objet en Java » de M. Joseph Ndong (Université Cheikh Anta Diop de Dakar). La numérotation reprend celle du cahier d'origine ; les exercices sont regroupés par thème.</p>
       </div>`;
     $("#contenu").querySelector(".grille-langues").addEventListener("click", (ev) => {
       const b = ev.target.closest("[data-lang]");
